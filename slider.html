@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title>Slider</title>
+    <link rel="stylesheet" href="css/slider.css">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <script src="js/slider.js" defer></script>
+</head>
+<body>
+    <div class="wrapper">
+        <div class="slider" data-slider>
+            <div class="slider__top">
+                <button class="slider__button-left">
+                    <img src="img/arrow-btn.svg" alt="">
+                </button>
+                <ul class="slider__slide-wrapper" data-slides>
+                    <li class="slider__slide" data-current>
+                        <img src="img/pinaple_bg.webp" alt="">
+                    </li>
+                    <li class="slider__slide"  >
+                        <img src="img/hand_bg.webp" alt="">
+                    </li>
+                    <li class="slider__slide"  >
+                        <img src="img/idscanner_bg.webp" alt="">
+                    </li>   
+                </ul>
+                <button class="slider__button-right">
+                    <img src="img/arrow-btn.svg" alt="">
+                </button>
+            </div>
+            <div class="slider__points">
+                <input checked type="radio" name="slider-point" id="point1">
+                <input type="radio" name="slider-point" id="point2">
+                <input type="radio" name="slider-point" id="point3">
+            </div>
+            <div class="navigation">
+                <label for="point1"></label>
+                <label for="point2"></label>
+                <label for="point3"></label>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
